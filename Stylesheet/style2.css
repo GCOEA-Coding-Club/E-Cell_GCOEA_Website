@@ -1,0 +1,115 @@
+:root {
+    --SilkWhite : rgb(246, 235, 235);
+    --OffBlack : rgb(14, 13, 13);
+}
+*{
+    box-sizing: border-box;
+}
+
+.animation img{
+    height: 100px;
+    position:fixed;
+    top:500px;
+    z-index: -1;
+    left:-500px;
+    transform: rotate(68deg)
+}
+.WhatIsEcel{
+    display: flex;
+    height: auto;
+    min-height: 80vh;
+    max-height:fit-content;
+    color: var(--OffBlack);
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 10vh;
+    
+}
+.ecell-div{
+    width: auto;
+}
+.E_cell{
+    margin-bottom: 40px;
+    width: 100vw;
+    margin-top: 30px;
+   font-size: x-large;
+   text-decoration: dashed;
+   display: inline-flex;
+   justify-content: center;
+   text-align: center !important;
+   align-content: center;
+}
+
+.E_cell_defination{
+   font-size: large;
+   display: inline-flex;
+   justify-content: center;
+   align-content: center;
+   text-align: center !important;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+.MissAndViss{
+    min-height: 80vh;
+    height: auto;
+    color: var(--OffBlack);
+    display: flexbox;
+}
+.viss{
+    
+    min-height: 40vh;
+    height: auto;
+    color: var(--OffBlack);
+    display: flexbox;
+}
+
+.miss{
+    min-height: 40vh;
+    height: auto;
+    color: var(--OffBlack);
+    display: flexbox;
+}
+.vision{
+    margin-bottom: 40px;
+    width: 100vw;
+   font-size: x-large;
+   display: flex;
+   text-decoration: dashed;
+   display: inline-flex;
+   justify-content: center;
+   text-align: center !important;
+   align-content: center;
+}
+.mission{
+    margin-bottom: 40px;
+    width: 100vw;
+   font-size: x-large;
+   text-decoration: dashed;
+   display: inline-flex;
+   justify-content: center;
+   text-align: center !important;
+   align-content: center;
+}
+
+.viss_details {
+    font-size: large;
+   display: inline-flex;
+   justify-content: center;
+   align-content: center;
+   text-align: center !important;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+.miss_details{
+    font-size: large;
+   display: inline-flex;
+   justify-content: center;
+   align-content: center;
+   text-align: center !important;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+
